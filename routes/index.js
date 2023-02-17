@@ -11,7 +11,7 @@ const Anomalia = require("../models/Anomalias")
 module.exports = function() {
 
     router.get("/", (req, res, next) => {
-        res.send("<h2>Welcome to Datómicos API v1.0 -> You can read docs <a href='/docs'>here</a></h2>")
+        res.send("<h2>Welcome to Datómicos API v1.0 -> You can read docs <a href='/'>here</a></h2>")
     })
 
     router.get("/network_jefes", async (req, res, next) => {
